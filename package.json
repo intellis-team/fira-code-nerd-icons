@@ -1,0 +1,21 @@
+{
+  "name": "fira-code-nerd-font",
+  "displayName": "Fira Code Nerd Font / Icons",
+  "description": "Use Nerd Font icons and install Fira Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "fira-code-material-minimal",
+        "label": "Fira Code Material Minimal Icons",
+        "path": "./fira-code-material-minimal.json"
+      }
+    ]
+  }
+}
