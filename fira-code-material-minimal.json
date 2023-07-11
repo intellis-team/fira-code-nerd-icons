@@ -1,11 +1,12 @@
 {
+  "hidesExplorerArrows": true,
   "fonts": [
     {
       "id": "fira-code-nerd",
       "src": [
         {
-          "path": "./fonts/fira-code-nerd-font-regular.ttf",
-          "format": "ttf"
+          "path": "./fonts/fira-code-nerd-font-regular.woff",
+          "format": "woff"
         }
       ],
       "weight": "normal",
@@ -15,37 +16,38 @@
   ],
   "iconDefinitions": {
     "_file": {
-      "fontCharacter": "\\db80\\de14",
-      "fontColor": "#999999"
+      "fontCharacter": "\\F0214",
+      "fontColor": "#b5b5b5"
     },
     "_file_light": {
-      "fontCharacter": "\\db80\\de14",
-      "fontColor": "#999999"
+      "fontCharacter": "\\F0214",
+      "fontColor": "#333333"
     },
     "_folder": {
-      "fontCharacter": "\\db80\\de4b",
+      "fontCharacter": "\\F024B",
       "fontColor": "#b5b5b5"
     },
     "_folder_light": {
-      "fontCharacter": "\\db80\\de4b",
+      "fontCharacter": "\\F024B",
       "fontColor": "#333333"
     },
     "_folder_open": {
-      "fontCharacter": "\\db81\\df70",
+      "fontCharacter": "\\F0770",
       "fontColor": "#b5b5b5"
     },
     "_folder_open_light": {
-      "fontCharacter": "\\db81\\df70",
+      "fontCharacter": "\\F0770",
       "fontColor": "#333333"
-    },
-    "file": "_file",
-    "folder": "_folder",
-    "folderExpanded": "_folder_open",
-    "light": {
-      "file": "_file_light",
-      "folder": "_folder_light",
-      "folderExpanded": "_folder_open_light"
     }
-
+  },
+  
+  "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "light": {
+    "file": "_file_light",
+    "folder": "_folder_light",
+    "folderExpanded": "_folder_open_light"
   }
+
 }
